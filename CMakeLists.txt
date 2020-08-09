@@ -15,6 +15,7 @@ INCLUDE(ExternalProject)
 INCLUDE(DoctestExternalProject)
 INCLUDE(AsioExternalProject)
 INCLUDE(Rest_rpcExternalProject)
+INCLUDE(GflagsExternalProject)
 INCLUDE_DIRECTORIES(SYSTEM ${DOCTEST_INCLUDE_DIR})
 INCLUDE_DIRECTORIES(SYSTEM thirdparty/logging)
 
